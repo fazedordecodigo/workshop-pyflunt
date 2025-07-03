@@ -1,0 +1,16 @@
+POST http://localhost:5000/users
+Content-Type: application/json
+
+{
+  "first_name": "João",
+  "last_name": "Silva",
+  "age": 30,
+  "street": "Rua das Flores",
+  "number": "123",
+  "complement": "Apto 45",
+  "district": "Centro",
+  "city": "São Paulo",
+  "state": "SP",
+  "zip_code": "01000-000",
+  "country": "Brasil"
+}
